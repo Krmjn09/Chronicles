@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+
+    <link rel="stylesheet" type="text/css" href="login.css" />
+  </head>
+  <body>
+    <!-- <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+            alt="Bootstrap"
+            width="30"
+            height="24"
+          />
+        </a>
+      </div>
+    </nav> -->
+    <div class="form-structor">
+      <div class="signup">
+        <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+        <div class="form-holder">
+          <input type="text" class="input" placeholder="Name" />
+          <input type="email" class="input" placeholder="Email" />
+          <input type="password" class="input" placeholder="Password" />
+        </div>
+        <button class="submit-btn">Sign up</button>
+      </div>
+      <div class="login slide-up">
+        <div class="center">
+          <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+          <div class="form-holder">
+            <input type="email" class="input" placeholder="Email" />
+            <input type="password" class="input" placeholder="Password" />
+          </div>
+          <button class="submit-btn">Log in</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <h2>Login</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">
+            <img id="emo" src="./img/user.svg" alt="Icon" />
+            Username
+          </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">
+            <img id="emo" src="./img/email.png" alt="Icon" />
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">
+            <img id="emo" src="./img/padlock.png" alt="Icon" /> Password</label
+          >
+          <div class="password-toggle">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              pattern="^(?=.[A-Za-z])(?=.\d)[A-Za-z\d]{8,}$"
+              title="Password must be at least 8 characters long and contain at least one letter and one number"
+              required
+            />
+            <img
+              id="toggle-eye"
+              src="./img/hide.png"
+              alt="Toggle Eye"
+              onclick="togglePasswordVisibility()"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
